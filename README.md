@@ -9,6 +9,8 @@
 ## Стек
 FastAPI • FastAPI-Users • SQLAlchemy • Pydantic • SQLite • JWT • ASGI
 
+---
+
 ## Установка
 Склонируйте репозиторий с GitHub:
 
