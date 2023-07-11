@@ -23,7 +23,8 @@ app.include_router(
 )
 
 
-@app.get("/")
+@app.get("/", tags=["Главная страница"], summary="Приветствие",
+         description="Проверка авторизации пользователя и вывод приветственного сообщения.")
 async def root(user: User = Depends(fastapi_users.current_user(optional=True))):
     if user:
         return {"message": f"Привет, {user.username}"}
