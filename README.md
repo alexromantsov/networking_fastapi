@@ -51,10 +51,6 @@ uvicorn main:app --reload
 * Swagger UI: http://localhost:8000/docs
 * ReDoc: http://localhost:8000/redoc
 
-_Пример окна с документацией_
-![ReDoc Screenshot](./image/ReDoc.png)
-
-
 ---
 
 ## Эндпоинты
@@ -62,7 +58,9 @@ _Пример окна с документацией_
 * /auth - эндпоинт аутентификации, обрабатывает все, что связано с регистрацией и входом в систему.
 * /api/message - эндпоинт для работы с сообщениями.
 
-Добавить картинки
+_Пример окна с документацией_
+![ReDoc Screenshot](./image/ReDoc.png)
+
 ---
 
 ## Модели данных
